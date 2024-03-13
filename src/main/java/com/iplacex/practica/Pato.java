@@ -19,14 +19,14 @@ public class Pato {
       resultado2 = (numeroUno + numeroDos) /2;
       //Aplicando la ley de signos primero divide 
       System.out.println("El resultado es:" +resultado);
-      //Si queremos sacar un promedio por ejemplo debemos poner la operacion principal entre parentesis
+      
       System.out.println("El resultado aplicando ley de signos es:" +resultado2);
       System.out.println("*****************************************************");
       System.out.println("**************Estructuras de control*****************");
       System.out.println("*****************************************************");
       
       //Condicionales if else Ejemplo promedio notas
-      
+      System.out.println("**Condicionales if else Ejemplo promedio notas*******");
       int matematicas = 5;
       int biologia = 3;
       int quimica = 7;
@@ -90,8 +90,7 @@ public class Pato {
       String name = "";
       int clave = 0;
       int antiguedad = 0;
-      System.out.println("***************************************************************");
-      System.out.println("***************************************************************");
+      System.out.println("*************************************************************\n");
       System.out.println("****Bienvenido al sistema vacacional de  Synapsis company******");
       System.out.println("***************************************************************");
       System.out.println("***************************************************************");
@@ -144,7 +143,7 @@ public class Pato {
       Scanner insert = new Scanner(System.in);
       int namberGuan = 5 ,namberChu = 3, resultadoTotal = 0;
       int parametro = 0;
-      System.out.println("Ingrese una opcion del 1 al 4");
+      System.out.println("Ingrese una opcion del 1 al 4: 1=suma, 2=resta, 3=multiplicación, 4=division");
       parametro = insert.nextInt();
       switch(parametro){
         case 1:resultadoTotal = namberGuan + namberChu;
@@ -169,8 +168,9 @@ public class Pato {
       
       // Ciclos o bucles
      
-      //Ciclo for
-       //Imprimir 1, 2, 3, 4, 5, incremento 1
+      System.out.println("***************************Ciclo for***************************");
+       System.out.println("*****************Imprimir 1, 2, 3, 4, 5, incremento 1*********");
+            
       for(int i = 1; i <= 5; i++){
       System.out.print(i + ", ");
       //System.out.println(i + ", ");
@@ -180,8 +180,8 @@ public class Pato {
       System.out.println("***************************************************************");
       System.out.println("***************************************************************");
       
-      //Ciclo while
-       //Imprimir 1, 3, 5, 7, 9, incremento 2
+      System.out.println("***************************Ciclo while*************************");
+      System.out.println("****************Imprimir 1, 3, 5, 7, 9, incremento 2***********");
        //la variable se declara fuera del while
       int i =1;
       while(i < 10){
@@ -193,8 +193,8 @@ public class Pato {
       System.out.println("***************************************************************");
       System.out.println("***************************************************************"); 
       
-      //Ciclo do while
-      //Imprimir desde 1000 a 0  con decremento de 200
+      System.out.println("*************************Ciclo do while************************");
+      System.out.println("**********Imprimir desde 1000 a 0  con decremento de 200*******");
       int j = 1000;
         do{
           System.out.print(j +", ");
