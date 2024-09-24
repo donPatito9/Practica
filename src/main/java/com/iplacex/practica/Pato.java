@@ -204,7 +204,7 @@ public class Pato {
       System.out.println(""); 
       System.out.println("****************************************************************");
       System.out.println("****************************************************************");
-      System.out.println("*****Bien Hecho " + nombre + " la practica hace al Maestro*******");
+      System.out.println("*****Bien Hecho " + nombre + " la practica hace al Maestro******");
       System.out.println("****************************************************************");
       }
     } 
