@@ -1,4 +1,3 @@
-
 package com.iplacex.practica;
 import java.util.Scanner;
 /**
